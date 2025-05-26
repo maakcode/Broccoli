@@ -12,14 +12,10 @@
     "start": "react-native start",
     "test": "jest"
   },
-  "codegenConfig": {
-    "name": "NativeStoreReviewSpec",
-    "type": "modules",
-    "jsSrcsDir": "library/NativeStoreReview/specs"
-  },
   "dependencies": {
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-store-review": "./library/react-native-store-review"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

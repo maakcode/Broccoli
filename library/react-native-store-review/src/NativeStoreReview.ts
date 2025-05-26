@@ -5,4 +5,4 @@ export interface Spec extends TurboModule {
   requestReview(): void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('NativeStoreReview');
+export default TurboModuleRegistry.getEnforcing<Spec>('StoreReview');

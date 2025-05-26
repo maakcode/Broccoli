@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button, View} from 'react-native';
-import StoreReview from './library/NativeStoreReview/specs/NativeStoreReview';
+import {requestReview} from 'react-native-store-review';
 
 function App(): React.JSX.Element {
   const handleClickReview = () => {
-    StoreReview.requestReview();
+    requestReview();
   };
 
   return (
